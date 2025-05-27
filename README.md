@@ -59,7 +59,7 @@ To explore any project:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your_username>/42-piscine-projects.git
+   git clone https://github.com/leite-tiago/42_piscine.git
    cd 42-piscine-projects
    ```
 
