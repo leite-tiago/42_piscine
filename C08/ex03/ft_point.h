@@ -6,16 +6,16 @@
 /*   By: tborges- <tborges-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 12:22:38 by tborges-          #+#    #+#             */
-/*   Updated: 2024/02/05 12:32:50 by tborges-         ###   ########.fr       */
+/*   Updated: 2024/02/10 09:28:27 by tborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
-#define FT_POINT_H
+# define FT_POINT_H
 
-typedef struct t_point
+typedef struct s_point
 {
-	int x;
-	int y;
-}
+	int	x;
+	int	y;
+}		t_point;
 #endif

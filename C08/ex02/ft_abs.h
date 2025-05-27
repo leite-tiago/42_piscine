@@ -6,15 +6,11 @@
 /*   By: tborges- <tborges-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/05 12:19:05 by tborges-          #+#    #+#             */
-/*   Updated: 2024/02/05 12:22:03 by tborges-         ###   ########.fr       */
+/*   Updated: 2024/02/12 15:57:28 by tborges-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-# define ABS(Value)  \
-	if (Value < 0)  \
-	{               \
-		Value *= -1 \
-	}
+# define ABS(Value) (Value *((Value > 0) - (Value < 0)))
 #endif
